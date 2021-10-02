@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>myPage</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@700&display=swap');
+.wrap {
+	width: 850px; 
+	margin: 0px auto 0px auto;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.nav{
+	background-color:#F7FBFC;
+}
+ul{
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+li{
+   display: flex;
+   margin: 0 20px 0 0 ;
+}
+
+div.container{
+	display:flex;
+	justify-content: center;
+	background-color:#769FCD;
+	flex-wrap: nowrap;
+	/* position: fixed; */
+}
+div.item{
+	margin:10px 50px 10px 0;
+}
+
+main{
+	background-color:#F7FBFC;
+	margin: 50px 0 0 0;
+	text-align:center;
+}
+.profile-image{
+	border-radius:100px;
+}
+div.info{
+	display:flex;
+	justify-content: center;
+}
+div.info-text{
+	margin:10px 0 0 80px;
+}
+div.info-button{
+	display:flex;
+	justify-content: center;
+}
+tr{
+         height:60px;
+         }
+
+
+</style>
+</head>
+<body>
+<div class="wrap">
+	<header>
+		<nav>
+			<ul>
+                <li><a href="mainpage.html">MAIN</a></li>
+                <li>LOGOUT</li>
+            </ul>
+		</nav>
+		<br>
+		<h1 style="font-family: 'IBM Plex Sans KR', sans-serif;"> 🌞페이지 이름</h1>
+	</header>
+		<div class="container">
+			    <div class="item"><a style="color:white" href="group.html" target="main_area">GROUP</a></div>
+			    <div class="item"><a style="color:white" href="todo.html" target="main_area">TODO</a></div>
+			    <div class="item"><a style="color:white" href="myPage.html" target="main_area">MYPAGE</a></div>
+
+	    </div>
+	    <h1>MyPage</h1>
+	<main>		
+		<h2>MyProfile</h2>
+		<div class="info">
+			<img class="profile-image" src="image/profile-image.jpg" alt="My Image" width="125" height="125">
+			<div class="info-text">
+				<ul>
+					<li>✏이은서</li>
+					<li>✏정적인 요가형</li>
+					<li>✏ 소속된 그룹이 없습니다. 요가러들을 모아 즐겁게 운동해보세요!</li>
+					<li><button id="group-quit" type="button">그룹 탈퇴</button></li>
+				</ul>
+			</div>		
+		</div>
+		<div class="info-btn">
+			<button id="info-ud" type="button">회원 정보 수정</button>
+			<button id="reMBTI" type="button">유형 다시 검사</button>
+			<button id="member-quit" type="button">회원 탈퇴</button>
+		</div>
+		
+		<h2>MyCalendar</h2>
+		<div class="calendar" align="center">
+		<table>
+		<caption>9</caption>
+			<tr>
+               <th>MON</th>
+               <th>TUE</th>
+               <th>WED</th>
+               <th>THU</th>
+               <th>FRI</th>
+               <th>SAT</th>
+               <th>SUN</th>
+            </tr>
+            <tr>
+               <th>1</th>
+               <th>2</th>
+               <th>3</th>
+               <th>4🧡💚</th>
+               <th>5</th>
+               <th>6</th>
+               <th>7</th>
+            </tr>
+             <tr>
+               <th>8</th>
+               <th>9</th>
+               <th>10</th>
+               <th>11</th>
+               <th>12</th>
+               <th>13</th>
+               <th>14</th>
+            </tr>
+             <tr>
+               <th>15</th>
+               <th>16</th>
+               <th>17</th>
+               <th>18</th>
+               <th>19</th>
+               <th>20</th>
+               <th>21</th>
+            </tr>
+             <tr>
+               <th>22</th>
+               <th>23</th>
+               <th>24</th>
+               <th>25</th>
+               <th>26</th>
+               <th>27</th>
+               <th>28</th>
+            </tr>
+             <tr>
+               <th>29</th>
+               <th>30</th>
+               <th> </th>
+               <th> </th>
+               <th> </th>
+               <th> </th>
+               <th> </th>
+            </tr>
+            
+            </table>
+		</div>
+	</main>
+</div>	
+</body>
+</html>
