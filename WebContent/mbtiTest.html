@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MBTI Test</title>
+<style>
+body{
+	margin:0 auto;
+	text-align:center;
+}
+
+.question-background{
+	background-color:#DCEBFF;
+	border-radius:30px;
+	margin:0 auto;
+	width:500px;
+	text-align:center;
+}
+#title{
+	background-color:#AECDFF;
+	border-radius:30px;
+	text-align:center;
+}
+.question-choice{
+	display:flex;
+	width:100%; 
+	margin:0 auto;
+}
+#next-btn{
+	width:50px;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+#A, #B{
+	width:45%;
+	margin:0 auto;
+	height:200px;
+}
+</style>
+</head>
+<body>
+	<article class="question" >
+	<h3 align=center>나의 운동 유형은?</h3>
+		<div class="progress">
+			<b>start🏃🏻‍♂️</b>
+			<progress value="20" max="240"></progress>
+			<b>⛳goal!</b>
+		</div>
+		<div class="question-background">
+			<div class="question-title">
+				<h2 id="title">Q.여기는 문제를 입력하는 공간</h2>
+			</div>
+			<div class="question-choice" style = "padding: 0px 0px 20px 0px;">
+				<button id="A" type="button">여기는 선택지를 입력하는 공간 A</button>		
+				<button id="B" type="button">여기는 선택지를 입력하는 공간 B</button>		
+			</div>
+			<button id="next-btn" type="button">NEXT</button>
+		</div>
+	</article>
+</body>
+</html>
