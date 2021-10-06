@@ -1,11 +1,11 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="EUC-KR">
 <title>Main Layout</title>
-<link rel="stylesheet" href="layout_style.css">
+<link rel="stylesheet" href="./hbti_style/layout_style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 </head>
 <body>
@@ -26,8 +26,17 @@
 			</div>
 		</nav>
 	</div>
-	<div class="container">
-		<jsp:include page="category_layout.jsp" />
-	</div>
+	<!-- contents 페이지를 불러온다. -->
+	<article><jsp:include page="category_layout.jsp" /></article>
+    <footer>
+    	<ul>
+        <li><p>copyright ⓒ 2021 All rights reserved by 코딩궁딩.</p></li>
+        <li>
+          <a class="text-deco" href="mailto:leuns36@naver.com" target="_top">
+            ✉Mail me : leuns36@naver.com
+          </a>
+        </li>
+      </ul>
+    </footer>
 </body>
 </html>

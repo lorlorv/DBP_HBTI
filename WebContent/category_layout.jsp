@@ -7,13 +7,13 @@
 <title>Group Category</title>
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-<link rel="stylesheet" href="category_style.css">
+<link rel="stylesheet" href="./hbti_style/category_style.css">
 </head>
 <body>
 	<div class="contents">
 		<p id="white-ver">GROUP JOIN</p>
 		<div class="contents-top">
-			<p p style="font-size: 30px;">나와 같은 HBTI를 가진 러너들과 건강하게 습관을
+			<p style="font-size: 30px;">나와 같은 HBTI를 가진 러너들과 건강하게 습관을
 				형성해보세요!</p>
 			<div class="search-group">
 				<form>
