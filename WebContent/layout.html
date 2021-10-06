@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>전체 레이아웃</title>
+ <link rel="icon" type="image/png" href="image/favicon.ico" />
+ 
+ <style>
+ @font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+main{
+ 	border: 1px solid; 
+ 	width:1000px;
+ 	height:2000px;
+ 	display:flex;
+ 	margin:0 auto;
+ 	justify-content:center;
+ 	padding : 150px 0 0 0;
+}
+header{
+	display:flex;
+	margin:50px 0 100px 0;
+	width:100%;
+	height: 300px;
+	opacity: 0.8;
+	/* background-color:#DBE2EF; */
+	position:fixed;
+	
+}
+a.logo{
+	margin-right:auto;
+/* 	padding:0 0 0 50px; */
+	font-size: 36px;
+	background-color:#DBE2EF;
+	border-radius:30px;
+	opacity: 0.5;
+}
+
+a:hover{
+	color:#3F72AF;
+}
+nav ul{
+	display:flex;
+	list-style-type: none;
+}
+nav ul li{
+	margin:0 50px 0 50px;
+	color:#112D4E;
+}
+a{
+	text-decoration:none;
+	color:#112D4E;
+	font-weight:bold;
+	font-family: 'SBAggroB';
+}
+a.logout{
+	margin-left:auto;
+	padding: 15px 50px 0 0;
+}
+footer{
+	background-color:#F9F7F7;
+	text-align:center;
+	padding: 100px 0 100px 0;
+	margin: 50px 0 0 0;
+}
+footer ul{
+	list-style-type: none;
+}
+article{
+ font-family: 'Pretendard-Regular';
+}
+.question-background{
+	background-color:#DCEBFF;
+	border-radius:30px;
+	margin:0 auto;
+	width:900px;
+	text-align:center;
+	font-family: 'Pretendard-Regular';
+}
+#title{
+	background-color:#AECDFF;
+	border-radius:30px;
+	text-align:center;
+}
+.question-choice{
+	display:flex;
+	width:100%; 
+	margin:0 auto;
+}
+#next-btn{
+	width:50px;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+}
+#A, #B{
+	width:45%;
+	margin:0 auto;
+	height:200px;
+}
+</style>
+</head>
+<body>
+<header>
+	<a href="index.html" class="logo">HBTI</a>
+	<nav>
+		<ul>
+			<li><a href="#home">TODO</a></li>
+			<li><a href="#">GROUP</a></li>
+			<li><a href="#">MYPAGE</a></li>
+		</ul>
+	</nav>
+	<a href="main.html" class="logout">LOGOUT</a>           
+    </header>
+    
+    <main>
+    	<article class="question" >
+	<h3 align=center>나의 운동 유형은?</h3>
+		<div class="progress">
+			<b>start🏃🏻‍♂️</b>
+			<progress value="20" max="240"></progress>
+			<b>⛳goal!</b>
+		</div>
+		<div class="question-background">
+			<div class="question-title">
+				<h2 id="title">Q.여기는 문제를 입력하는 공간</h2>
+			</div>
+			<div class="question-choice" style = "padding: 0px 0px 20px 0px;">
+				<button id="A" type="button">여기는 선택지를 입력하는 공간 A</button>		
+				<button id="B" type="button">여기는 선택지를 입력하는 공간 B</button>		
+			</div>
+			<button id="next-btn" type="button">NEXT</button>
+		</div>
+	</article>
+    </main>
+    <footer>
+    	<ul>
+        <li><p>copyright ⓒ 2021 All rights reserved by 코딩궁딩.</p></li>
+        <li>
+          <a href="mailto:leuns36@naver.com" target="_top">
+            📧 Mail me : leuns36@naver.com
+          </a>
+        </li>
+      </ul>
+    </footer>
+</body>
+</html>
