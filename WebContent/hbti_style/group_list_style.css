@@ -29,15 +29,20 @@ body {
 	display : flex;
 	align-items : center;
 	flex-direction: column;
-	padding : 100px 0px 0px 0px;
+	padding : 200px 0px 0px 0px;
 }
 
+#sub-title {
+	color:  #DBE2EF;
+	font-size: 30px;
+	font-family: 'ELAND_Choice_B';
+}
 
 /* contents-top */
 .contents-top , .contents-main{
 	margin-bottom : 50px;
 	padding : 50px 0px 50px 0px;
-	width : 1500px;
+	width : 1000px;
 	background-color : white;
 	display : flex;
 	align-items : center;
@@ -45,9 +50,13 @@ body {
 	border-radius : 10px;
 }
 
-#white-ver {
-	color:  #DBE2EF;
-	font-size: 40px;
+#intro {
+	font-size: 20px;
+	text-align:center;
+}
+#contents-title {
+	color:  #112D4E;
+	font-size: 30px;
 	font-family: 'ELAND_Choice_B';
 }
 
@@ -98,16 +107,16 @@ body {
 }
 
 /*contents-main*/
-.group-list {
+.list-row {
 	display : flex ;
 	align-items : center;
 }
 
-.join-box {
+.list-box {
 	border : 1px solid;
 	border-radius : 10px;
-	width : 300px;
-	height : 300px;
+	width : 200px;
+	height : 200px;
 	margin : 10px;
 }
 
@@ -117,7 +126,7 @@ table {
 	text-align:center;
 }
 th, td {
-	border-bottom: 1px solid #444444;
+	border: 0px solid #444444;
     padding: 10px;
-    font-size : 18pt;
+    font-size : 20px;
 }

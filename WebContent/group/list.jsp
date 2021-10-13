@@ -7,14 +7,16 @@
 <title>Group Category</title>
 <link rel="stylesheet"
 	href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-<link rel="stylesheet" href="./hbti_style/category_style.css">
+<link rel="stylesheet" href="../hbti_style/group_list_style.css">
 </head>
 <body>
 	<div class="contents">
-		<p id="white-ver">GROUP JOIN</p>
+		<p id="sub-title">Hello! HBTI World</p>
 		<div class="contents-top">
-			<p style="font-size: 30px;">나와 같은 HBTI를 가진 러너들과 건강하게 습관을
-				형성해보세요!</p>
+			<p id="intro">HBTI에 오신 여러분들 모두 환영합니다.<br>
+			이곳에서는 나와 같은 HBTI를 가진 사람들과 함께 건강 습관을 실천할 수 있습니다.<br>
+			운동 키워드를 통해 검색하여 보다 마음에 맞는 사람들을 찾아보세요!</p>
+			
 			<div class="search-group">
 				<form>
 					<input type="text" class="search-txt" name=""
@@ -25,49 +27,45 @@
 			</div>
 		</div>
 		<div class="contents-main">
-			<div class="group-list">
-				<div class="join-box">
-					<table>
+			<p id="contents-title">GROUP LIST</p>
+			원하는 그룹에 가입하거나 자신이 그룹을 생성할 수 있습니다. 
+			<div class="list-row">
+				<div class="list-box">
+					<table onClick="">
 						<tr>
-							<td colspan='2'><i class="fas fa-chart-pie fa-5x"></i></td>
+							<td colspan='2'><i class="fas fa-chart-pie fa-3x"></i></td>
 						</tr>
 						<tr>
-							<td colspan='2'>그루비룸</td>
-						</tr>
-						<tr>
-							<td style="color: grey;">3명이 함께 하는 중</td>
-						</tr>
-						<tr>
-							<td colspan='2'>운동만이 살 길이다!</td>
-						</tr>
-					</table>
-				</div>
-				<div class="join-box">
-					<table>
-						<tr>
-							<td colspan='2'><i class="fas fa-chart-pie fa-5x"></i></td>
-						</tr>
-						<tr>
-							<td colspan='2'>그루비룸</td>
-						</tr>
-						<tr>
-							<td style="color: grey;">3명이 함께 하는 중</td>
+							<td>그루비룸</td>
+							<td style="color: grey;">3/30</td>
 						</tr>
 						<tr>
 							<td colspan='2'>운동만이 살 길이다!</td>
 						</tr>
 					</table>
 				</div>
-				<div class="join-box">
+				<div class="list-box">
 					<table>
 						<tr>
-							<td colspan='2'><i class="fas fa-chart-pie fa-5x"></i></td>
+							<td colspan='2'><i class="fas fa-chart-pie fa-3x"></i></td>
 						</tr>
 						<tr>
-							<td colspan='2'>그루비룸</td>
+							<td>그루비룸</td>
+							<td style="color: grey;">3/30</td>
 						</tr>
 						<tr>
-							<td style="color: grey;">3명이 함께 하는 중</td>
+							<td colspan='2'>운동만이 살 길이다!</td>
+						</tr>
+					</table>
+				</div>
+				<div class="list-box">
+					<table>
+						<tr>
+							<td colspan='2'><i class="fas fa-chart-pie fa-3x"></i></td>
+						</tr>
+						<tr>
+							<td>그루비룸</td>
+							<td style="color: grey;">3/30</td>
 						</tr>
 						<tr>
 							<td colspan='2'>운동만이 살 길이다!</td>
@@ -75,40 +73,36 @@
 					</table>
 				</div>
 			</div>
-			<div class="group-list">
-				<div class="join-box">
+			<div class="list-row">
+				<div class="list-box">
 					<table>
 						<tr>
-							<td colspan='2'><i class="fas fa-chart-pie fa-5x"></i></td>
+							<td colspan='2'><i class="fas fa-chart-pie fa-3x"></i></td>
 						</tr>
 						<tr>
-							<td colspan='2'>그루비룸</td>
-						</tr>
-						<tr>
-							<td style="color: grey;">3명이 함께 하는 중</td>
+							<td>그루비룸</td>
+							<td style="color: grey;">3/30</td>
 						</tr>
 						<tr>
 							<td colspan='2'>운동만이 살 길이다!</td>
 						</tr>
 					</table>
 				</div>
-				<div class="join-box">
+				<div class="list-box">
 					<table>
 						<tr>
-							<td colspan='2'><i class="fas fa-chart-pie fa-5x"></i></td>
+							<td colspan='2'><i class="fas fa-chart-pie fa-3x"></i></td>
 						</tr>
 						<tr>
-							<td colspan='2'>그루비룸</td>
-						</tr>
-						<tr>
-							<td style="color: grey;">3명이 함께 하는 중</td>
+							<td>그루비룸</td>
+							<td style="color: grey;">3/30</td>
 						</tr>
 						<tr>
 							<td colspan='2'>운동만이 살 길이다!</td>
 						</tr>
 					</table>
 				</div>
-				<div class="join-box">
+				<div class="list-box">
 					<table>
 						<tr>
 							<td onClick="location.href='#'" colspan='2' rowspan='4'>Create Group</td>

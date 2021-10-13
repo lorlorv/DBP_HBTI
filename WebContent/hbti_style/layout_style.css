@@ -35,23 +35,23 @@
 	flex-wrap : nowrap; /*너비 초과 시, 줄 바꿈 */
 	justify-content : space-around; /* 수평 */
 	align-items : center; /* 수직  */
-	height : 150px;
+	height : 100px;
 	width : 100%;
-	position : fixed;
-	top : 0;
+	position : fixed; /*상단 바는 스크롤 내려도 고정*/
+	top : 0; /*위 여백 없음*/
 	background-color : #112D4E;
 }
 
 .nav-logo a {
 	color : white;
-	font-size : 50px;
+	font-size : 40px;
 	font-weight: bold;
 }
 
 .nav-menu a {
 	font-family : 'SDSamliphopangche_Outline';
 	color : white;
-	font-size : 30px;
+	font-size : 20px;
 }
 
 .menu-ul {
@@ -64,14 +64,24 @@
 }
 
 .nav-logout a{
-	color :  #DBE2EF;
-	font-size : 20px;
+	color : #DBE2EF;
+	font-size : 10px;
 	font-family :'ELAND_Choice_B';
 }
 
-.text-deco {
-	text-decoration:none;
+#text-deco {
+	text-decoration : none;
 	color : white;
+	transition: 0.5s;
+	border-radius : 5px;
+}
+
+/* menu hover 이벤트 */
+.menu-li #text-deco:hover {
+	text-decoration : none;
+	background-color : white;
+	padding : 10px;
+	color : #112D4E;
 }
 
 /* contatiner stylesheet */
